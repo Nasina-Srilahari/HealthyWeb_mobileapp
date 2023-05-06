@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">lmc</string>
+    <string-array name="loctaion_doctor">
+        <item>nellore</item>
+        <item>pulivendula</item>
+        <item>bangalore</item>
+        <item>rajampet</item>
+        <item>mudigubba</item>
+    </string-array>
+
+    <string-array name="specialization_doctor">
+        <item>cardiologist</item>
+        <item>opthamologist</item>
+        <item>psychiartist</item>
+        <item>ENT specialist</item>
+        <item>gynaecologist</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

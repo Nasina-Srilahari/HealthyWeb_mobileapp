@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/llf"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/dash_up"
+            android:orientation="vertical"
+            android:weightSum="30">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="HELLO"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/btn_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/logout4"
+                    android:background="@color/mycolor3"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fullname"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Full Name"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="40dp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="btn_showDialog"
+                    android:src="@drawable/user" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/appoint"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginVertical="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_dash"
+            android:text="Take Appointments"
+            android:textAllCaps="false"
+            android:textColor="@color/border_color"
+            android:textSize="27dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/med_his"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginVertical="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_dash"
+            android:padding="17dp"
+            android:text="Check Medical History"
+            android:textAllCaps="false"
+            android:textColor="@color/border_color"
+            android:textSize="27dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/meet_doc"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginVertical="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_dash"
+            android:padding="17dp"
+            android:text="Meet your Doctor! "
+            android:textAllCaps="false"
+            android:textColor="@color/border_color"
+            android:textSize="27dp" />
+
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="50dp"
+            android:layout_height="39dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/home"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            />
+
+        <ImageButton
+            android:id="@+id/remind"
+            android:layout_width="52dp"
+            android:layout_height="35dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/bell1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+             />
+
+        <ImageButton
+            android:id="@+id/diet"
+            android:layout_width="52dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/diet2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+             />
+
+        <ImageButton
+            android:id="@+id/exercise"
+            android:layout_width="52dp"
+            android:layout_height="35dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/ex4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+             />
+
+        <ImageButton
+            android:id="@+id/app_taken"
+            android:layout_width="52dp"
+            android:layout_height="35dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/app_taken"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

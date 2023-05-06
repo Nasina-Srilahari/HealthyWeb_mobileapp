@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "274858151494",
+    "project_id": "lmc-123",
+    "storage_bucket": "lmc-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274858151494:android:09d5b26ff22265bc500447",
+        "android_client_info": {
+          "package_name": "com.example.lmc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274858151494-4b63hrdiii9ue08b4hcvr91nnpr6e5cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ljWqE9j7AXtTyjg3FAjIcoQt56xZTqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274858151494-4b63hrdiii9ue08b4hcvr91nnpr6e5cd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
